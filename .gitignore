@@ -1,0 +1,2 @@
+# exclude Eclipse project metadata files
+.metadata/*
