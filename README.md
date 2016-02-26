@@ -1,2 +1,2 @@
 # threadyTCP
-A simple TCP multi-threaded Java server
+A simple Java TCP Server based on multi-threading.
