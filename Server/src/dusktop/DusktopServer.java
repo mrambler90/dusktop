@@ -320,7 +320,8 @@ public class DusktopServer {
 				terminal = new Scanner(System.in);
 				
 				// introduzione all'utente
-				System.out.println("Server DUSKTOP attivo. Qui verranno visualizzati i messaggi "
+				System.out.println("Server DUSKTOP attivo in locale sulla porta " + socket.getLocalPort() + ". "
+						+ "Qui verranno visualizzati i messaggi "
 						+ "di log delle attività e i dati ricevuti dai client.\nDigitare un comando seguito "
 						+ "dal tasto Invio per inviare un comando di amministrazione al server.");
 				
